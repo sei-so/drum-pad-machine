@@ -3,5 +3,91 @@
 *
     padding: 0
     margin: 0
+    box-sizing: border-box
     text-decoration: none
     font-family: 'Press Start 2P', cursive
+
+.wrapper
+    min-height: 100vh
+    width: 100%
+    display: flex
+    background: linear-gradient(100deg, #352865 2.76%, #FFB6E5 97.9%)
+    justify-content: center
+    align-items: center
+
+.container
+    min-width: 1080px
+    min-height: 610px
+    display: flex
+    flex-direction: column
+    //border: dashed yellow
+
+.pads
+    flex: 75
+    display: flex
+    justify-content: space-between
+    //border: dashed red
+
+.left-pads
+    width: 380px
+    display: flex
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr
+    gap: 100px 20px
+    //border: dashed orange
+
+.right-pads
+    width: 380px
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr
+    gap: 100px 20px
+    //border: dashed purple
+
+.pad
+    width: 180px
+    height: 180px
+    background-color: #FEF6EC
+    border-radius: 20px
+    display: flex
+    justify-content: center
+    align-items: center
+    -webkit-box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.2)
+    -moz-box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.2)
+    box-shadow: 2px 5px 15px 2px rgba(0, 0, 0, 0.2)
+    font-size: 30px
+    color: #606060
+
+.loop-pads
+    flex: 15
+    display: flex
+    justify-content: space-between
+    //border: dashed blue
+
+.left-loop-pads
+    width: 380px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    //border: dashed DeepPink
+
+.right-loop-pads
+    width: 380px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    //border: dashed Chartreuse
+
+.loop-pad
+    width: 180px
+    height: 60px
+    border-radius: 30px
+    -webkit-box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.2)
+    -moz-box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.2)
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.2)
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 30px
+    color: #FEF6EC
