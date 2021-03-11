@@ -153,4 +153,20 @@
   font-size: 30px;
   color: #FEF6EC;
 }
+
+#loop-pad-one {
+  background-color: #DE3D41;
+}
+
+#loop-pad-two {
+  background-color: #F0E259;
+}
+
+#loop-pad-three {
+  background-color: #5A94BE;
+}
+
+#loop-pad-four {
+  background-color: #9C77B9;
+}
 /*# sourceMappingURL=style.css.map */
