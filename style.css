@@ -180,4 +180,11 @@
 #loop-pad-four {
   background-color: #9C77B9;
 }
+
+.playing {
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
 /*# sourceMappingURL=style.css.map */
